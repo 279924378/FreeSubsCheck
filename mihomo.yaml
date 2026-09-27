@@ -1,104 +1,43 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|2.9MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 'gf1:gfhysteria2024'
+  - name: "\U0001F1EE\U0001F1EAIE_1|1.9MB/s"
     port: 443
-    server: 5.129.235.85
+    server: 149.88.96.1
     skip-cert-verify: true
-    sni: www.linux.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|775KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 'gf1:gfhysteria2024'
-    port: 443
-    server: 173.212.201.85
+    tls: true
+    type: http
+  - name: ❓Other_1|1.6MB/s
+    port: 9002
+    server: 84.17.47.150
     skip-cert-verify: true
-    sni: www.docker.com
-    type: hysteria2
-    up: ''
-  - fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-    password: 9sK2mP8xQ7vL3nZ6
-    port: 443
-    server: awefd2313fefarg23fr24.pnuqcnp.cn
-    skip-cert-verify: true
-    sni: images.ctfassets.net
-    type: anytls
-    udp: true
-    username: 9sK2mP8xQ7vL3nZ6
+    tls: true
+    type: http
   - cipher: aes-128-gcm
-    name: "\U0001F1ED\U0001F1F0HK_1|7.2MB/s"
-    password: ca2b2fa6-7f48-4f65-8363-14da2897bf93
+    name: "\U0001F1ED\U0001F1F0HK_1|4.6MB/s"
+    password: 61e50cc8-3ea7-45ba-a5e4-f4a54c5e89e9
     port: 8444
     server: 191.223.214.11
     type: ss
     udp: true
-  - auth: f15900b5-f86b-432d-a67c-45325dc66a2d
-    down: 100
-    name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
-    password: f15900b5-f86b-432d-a67c-45325dc66a2d
-    port: 50898
-    ports: 50000-53000
-    server: 82.152.160.245
+  - name: "\U0001F1ED\U0001F1F7HR_1|1.0MB/s"
+    port: 443
+    server: 154.47.29.174
     skip-cert-verify: true
-    sni: iosapps.itunes.apple.com
-    type: hysteria2
-    up: 20
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1F7IR_1|932KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-      short-id: ''
-    server: 151.241.138.44
     tls: true
-    type: vless
-    udp: true
-    uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-    xudp: true
-    servername: condropolo.ggisopi.su
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_1|1.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-      short-id: ''
-    server: cosw.ggisopi.su
+    type: http
+  - name: "\U0001F1E8\U0001F1EDCH_1|1.9MB/s"
+    password: None
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: d0f0a880-0df1-0003-bdf1-5669fb9483ce
-    xudp: true
-    servername: cosw.ggisopi.su
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|896KB/s"
-    network: ws
+    type: http
+  - name: "\U0001F1ED\U0001F1FAHU_1|1.5MB/s"
+    password: None
     port: 443
-    server: 104.238.149.30
+    server: 146.70.203.18
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-    ws-opts:
-      headers:
-        Host: mia7.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: '/TG:@MiaChatChannel'
-    servername: mia7.pages.dev
+    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
