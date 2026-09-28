@@ -1,53 +1,161 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-      port: "52454"
-      server: 45.88.43.116
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5JP_2|1.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-      port: "52454"
-      server: 45.88.43.116
-      skip-cert-verify: true
-      sni: 45.88.43.116
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1E8\U0001F1EDCH_1|1.2MB/s"
-      password: None
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
+    - client-fingerprint: qq
+      encryption: none
+      grpc-opts:
+        grpc-service-name: cdn.v1.AssetService
+      name: "\U0001F1E9\U0001F1EADE_1|694KB/s"
+      network: grpc
+      port: "443"
+      server: assets-de2.pleiades.codes
+      servername: assets-de2.pleiades.codes
       tls: true
-      type: http
-      username: null
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-us-004.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-004.fastervpn.world
-      type: hysteria2
-      up: ""
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|652KB/s"
+      type: vless
+      udp: true
+      uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+      xudp: true
+    - down: null
+      name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 60111
       server: 62.210.7.139
       skip-cert-verify: true
-      sni: google.com
+      sni: bing.com
       type: hysteria2
+      up: null
+    - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+      password: 19f72087-4591-4d72-930b-2697078ec2be
+      port: 18333
+      server: us3.xiaoliyu.cyou
+      skip-cert-verify: true
+      type: hysteria2
+    - name: "\U0001F1E8\U0001F1EDCH_1|1.6MB/s"
+      password: 19f72087-4591-4d72-930b-2697078ec2be
+      port: 18333
+      server: ch.xiaoliyu.cyou
+      skip-cert-verify: true
+      sni: ch.xiaoliyu.cyou
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EADE_2|816KB/s"
+      port: 9002
+      server: 158.173.154.4
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1EB\U0001F1F7FR_2|577KB/s"
+      port: 4443
+      server: 83.172.143.53
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_1|3.6MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: xg1.mangshe.xyz
+      skip-cert-verify: true
+      sni: xg1.mangshe.xyz
+      type: hysteria2
+    - name: "\U0001F1EA\U0001F1F8ES_1|2.5MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: xby.mangshe.xyz
+      skip-cert-verify: true
+      sni: xby.mangshe.xyz
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EADE_3|526KB/s"
+      port: 443
+      server: 176.94.74.21
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
+      network: ws
+      packet-encoding: xudp
+      port: 2096
+      server: 104.17.70.206
+      servername: free-server.techsonic.dev
+      tls: true
+      type: vless
+      uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+      ws-opts:
+        headers:
+            Host: free-server.techsonic.dev
+        path: /free-server.techsonic.dev
+    - auth: gf1:gfhysteria2024
+      name: "\U0001F1EB\U0001F1F7FR_3|826KB/s"
+      password: gf1:gfhysteria2024
+      port: 443
+      server: 173.212.201.85
+      skip-cert-verify: true
+      sni: www.docker.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: rb.mangshe.xyz
+      skip-cert-verify: true
+      sni: rb.mangshe.xyz
+      type: hysteria2
+    - name: "\U0001F1F8\U0001F1ECSG_2|3.1MB/s"
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: 2060
+      server: xjp2.mangshe.xyz
+      skip-cert-verify: true
+      sni: xjp2.mangshe.xyz
+      type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "1000"
+      name: "\U0001F1E9\U0001F1EADE_4|1.7MB/s"
+      port: 20088
+      protocol: udp
+      server: 5.83.129.153
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "500"
+    - name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+      port: 8443
+      server: 154.81.36.92
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_3|3.5MB/s"
+      network: xhttp
+      port: "443"
+      server: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+      servername: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9fa2fae0-141a-b983-ef0e-b3d5633f9592
+      xhttp-opts:
+        host: 1579e6d9-6b57-4fb1-b080-9c9a6da46ae5.fly.dev
+        mode: stream-up
+        path: /xhttp-siz10/stream-up/9fa2fae0-141a-b983-ef0e-b3d5633f9592
+      xudp: true
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
+        short-id: 3477a74403cf4af9
+      server: 154.64.235.117
+      servername: gateway.icloud.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
