@@ -1,46 +1,25 @@
 proxies:
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8US_1|521KB/s"
-      password: dd176c44-fad2-467d-a44c-7837afe5c7b0
-      port: 34568
-      reduce-rtt: false
-      request-timeout: 0
-      server: 45.205.27.78
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_1|578KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: f87376e17da040ed04c9665ce8972930
+      port: "50160"
+      server: 138.2.73.238
       skip-cert-verify: true
-      sni: localhost
-      type: tuic
-      udp-relay-mode: native
-      uuid: dd176c44-fad2-467d-a44c-7837afe5c7b0
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.7MB/s"
-      password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-      port: 40054
-      server: jp4.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
-      password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-      port: 40063
-      server: de3.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|3.6MB/s"
-      password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|787KB/s"
-      password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|2.9MB/s"
-      password: 4b7d9962-c99c-4c26-bc5f-f0041d398b8b
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
+      sni: 138.2.73.238
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|825KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+      port: "51285"
+      server: 108.181.5.106
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
