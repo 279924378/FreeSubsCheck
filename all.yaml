@@ -1,29 +1,9 @@
 proxies:
     - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|901KB/s"
       network: tcp
-      port: 33102
-      server: 112.49.63.11
-      servername: sgg.knhqf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-      xudp: true
-    - name: ❓Other_1|1.4MB/s
-      port: 9002
-      server: 84.17.47.150
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|1.1MB/s"
-      network: tcp
-      port: 33102
+      port: "33102"
       server: 27.44.143.169
       servername: sgg.knhqf.com
       tls: true
@@ -31,17 +11,22 @@ proxies:
       udp: true
       uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|546KB/s"
-      network: tcp
-      port: 14343
-      server: 27.155.117.209
-      servername: thuk.huaweiyouxuan.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 23.22.158.187
+      type: ss
       udp: true
-      uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_1|513KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+      port: "2060"
+      server: yg.mangshe.xyz
+      skip-cert-verify: true
+      sni: yg.mangshe.xyz
+      type: hysteria2
+      up: ""
