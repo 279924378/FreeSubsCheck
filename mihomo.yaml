@@ -1,31 +1,75 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|4.6MB/s"
-    password: 56815326-1a2e-4d4b-bbcb-ff3f6f2a487d
-    port: 443
-    server: node1.luoye.ee
-    skip-cert-verify: false
-    sni: node1.luoye.ee
-    type: trojan
+  - name: "\U0001F1F3\U0001F1F1NL_1|567KB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK_2|4.0MB/s"
-    password: 74bf1088-9604-48ef-8997-746bf83fd9cb
-    port: 443
-    server: node1.luoye.ee
-    skip-cert-verify: false
-    sni: node1.luoye.ee
-    type: trojan
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
+    port: 9002
+    server: 84.17.47.150
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK_3|4.2MB/s"
-    password: 654d0888-1452-4e1b-8077-ab00b45409fb
-    port: 443
-    server: node1.luoye.ee
-    skip-cert-verify: false
-    sni: node1.luoye.ee
-    type: trojan
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s"
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    network: tcp
+  - name: "\U0001F1F3\U0001F1F1NL_4|701KB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|769KB/s"
+    port: 9002
+    server: 84.17.47.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_6|709KB/s"
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_1|530KB/s"
+    port: 9002
+    server: 193.176.84.33
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|567KB/s"
+    port: 9002
+    server: 193.176.84.30
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_3|671KB/s"
+    port: 9002
+    server: 193.176.84.35
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_4|918KB/s"
+    port: 9002
+    server: 193.176.84.17
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
